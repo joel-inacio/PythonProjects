@@ -1,5 +1,5 @@
 #Programa em Python para calcular o IMC (Índice de Massa Corporal)
-#Linhas Antigas:
+#Linhas Antigas -->
 #imc = peso / (altura ** 2)
 #print(imc)
 
