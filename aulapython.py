@@ -1,4 +1,4 @@
-#Primeira aula de programação em Python.
+#Primeira aula de programação em Python...
 """
 Posso usar essa função das "3 aspas JUNTAS" para comentar um bloco com várias palavras ou com uma explicação
 """
