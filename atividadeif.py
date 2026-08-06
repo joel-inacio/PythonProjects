@@ -1,4 +1,24 @@
 """
+OPERADORES MATEMÁTICOS
+
++ (Adição): Soma dois valores (ex: 5 + 3 resulta em 8).
+- (Subtração): Subtrai o segundo valor do primeiro (ex: 5 - 3 resulta em 2).
+* (Multiplicação): Multiplica dois valores (ex: 5 * 3 resulta em 15).
+/ (Divisão): Divide o primeiro valor pelo segundo, retornando sempre um número de ponto flutuante (float) (ex: 7 / 2 resulta em 3.5).
+// (Divisão Inteira): Divide e descarta a parte decimal, arredondando para baixo (ex: 7 // 2 resulta em 3).
+% (Módulo ou Resto da Divisão): Retorna o resto da divisão inteira (ex: 7 % 2 resulta em 1).
+** (Exponenciação ou Potenciação): Eleva o primeiro valor à potência do segundo (ex: 2 ** 3 resulta em 8)
+
+OPERADORES DE COMPARAÇÃO
+== (Igual a): Verifica se dois valores são iguais.
+!= (Diferente de): Verifica se dois valores são diferentes.
+> (Maior que): Verifica se o valor à esquerda é maior que o da direita.
+< (Menor que): Verifica se o valor à esquerda é menor que o da direita.
+>= (Maior ou igual a): Verifica se o valor à esquerda é maior ou igual ao da direita.
+<= (Menor ou igual a): Verifica se o valor à esquerda é menor ou igual ao da direita
+"""
+#print("\nQuestões Resolvidas do: IF e ELSE")
+"""
 # ATIVIDADE 01
 x = 10
 y = 30
@@ -46,23 +66,37 @@ elif resultado2 < resultado:
 else:
     print(f'Ambos tem a mesma idade! {resultado2} anos.')
 """
+#ATIVIDADE 04
+valor = int(input("\nDigite um número: "))
+print(f'O número escolhido foi o {valor}')
+if valor % 2 == 0:
+    print("O número é par")
+else:
+    print("O número é impar")
 
+"""
 #ATIVIDADE 05
+import sys
+
 metajorge = 1000
 vendasjorge = 0
-usuario = 151515
+usuario = 600603
 senha = 123456
-print("Bem-vindo ao Supermercado Compre Mais!")
-usuario = input("Digite seu usuário: ")
-senha = input("Digite sua senha: ")
-if usuario == usuario and senha == senha:
+print("\nBem-vindo ao Supermercado Compre Mais!")
+entradausuario = int(input("\nDigite seu usuário: "))
+entradasenha = int(input("Digite sua senha: "))
+if usuario == entradausuario and senha == entradasenha:
     print("\nBem-vindo ao Supermercado Compre Mais!")
     print(f'Usuário: {usuario}')
 else:
     print("Acesso Negado")
+    sys.exit()
 
-vendasjorge = input("Digite o valor da nova venda realizada: ")
+vendasjorge = int(input("Digite o valor da nova venda realizada: "))
 if vendasjorge > metajorge:
-    print("Ganhou!")
+    print("Você foi além e atingiu sua meta! Ganhou!")
+elif vendasjorge < metajorge:
+    print("Continue vendendo")
 else:
-    print("Continue vendendo!")
+    print("Você atingiu exatamente sua meta! Ganhou!")
+"""
