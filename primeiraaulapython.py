@@ -36,3 +36,4 @@ valor3 = int(input("Digite o terceiro valor: "))
 valor4 = int(input("Digite o quarto valor: "))
 soma2 = valor3 + valor4
 print(soma2) #Aqui ele vai somar, porque o usuário entrou e 'editou' a variável.
+
