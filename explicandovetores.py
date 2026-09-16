@@ -24,4 +24,3 @@ if "Ana" in listaalunos:
     print("Ana está presente")
 else:
     print("Ana não está presente")
-
